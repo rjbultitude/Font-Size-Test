@@ -2,16 +2,16 @@
 
 html {
     color: #222;
-    /* use optionally to scale */
-    /* set to 10px for 10:1 ratio */
-    /* e.g. 20px ~ 2.0rem */
-    font-size: 16px;
-    line-height: 1.3;
+    /* scale base font size using percentage
+    so as to allow user to override 
+    using global browser settings
+    e.g. Settings > Font Size > Large
+     */
+    font-size: 100%;
+    line-height: 1.1;
 }
 
 body {
-    /* not needed if using rem or px */
-    /*font-size: 10px;*/
     background: #cccccc;
 }
 
